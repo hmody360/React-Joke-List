@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: black;
+}
+.app-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    gap: 12px;
+}
+.joke-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: fit-content;
+    background: rgba(60,60,60,0.5);
+    border-radius: 10px;
+    color: white;
+}
+.joke-container h4 {
+    width: 300px;
+    font-weight: 300;
+}
+.joke-container p {
+    width: 300px;
+    font-size: 14px;
+    font-weight: 300;
+}
